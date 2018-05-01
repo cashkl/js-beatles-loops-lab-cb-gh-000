@@ -17,3 +17,10 @@ function johnLennonFacts(facts) {
   }
   return realFacts
 }
+
+function iLoveTheBeatles(number) {
+  var empty=[]
+  do {
+    empty.push("I love the Beatles!")
+  } while (number < 15);
+}
