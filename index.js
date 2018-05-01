@@ -23,4 +23,5 @@ function iLoveTheBeatles(number) {
   do {
     empty.push("I love the Beatles!")
   } while (number < 15);
+  return empty
 }
