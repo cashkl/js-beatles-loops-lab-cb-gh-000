@@ -13,6 +13,7 @@ function johnLennonFacts(facts) {
   var realFacts=facts;
   while (i >= facts.length) {
     realFacts[i]=realFacts[i] + "!!!"
+    i++;
   }
   return realFacts
 }
