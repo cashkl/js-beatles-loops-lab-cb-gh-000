@@ -14,4 +14,5 @@ function johnLennonFacts(facts) {
   while (i >= facts.length) {
     realFacts[i]+="!!!"
   }
+  return realFacts
 }
